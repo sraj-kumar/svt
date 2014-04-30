@@ -1,0 +1,45 @@
+.starter-template {
+	padding: 100px;
+}
+
+/*Stick footer to end of page*/
+html,body{
+    height: 100%;
+}
+
+/* Wrapper for page content to push down footer */
+#wrap {
+  min-height: 100%;
+  height: auto;
+  /* Negative indent footer by its height */
+  margin: 0 auto -60px;
+  /* Pad bottom by footer height */
+  padding: 0 0 60px;
+}
+
+/*footer*/
+#footer {
+	color: #fff;
+	background: #222;
+	padding: 17px 0 18px 0;
+	border-top: 1px solid #000;
+	overflow: auto;
+}
+
+#footer a {
+	color: #dfdfdf;
+}
+
+#footer a:hover {
+	color: #efefef;
+}
+
+#qlinks {
+	padding: 0 100px;
+}
+
+#footer_bottom {
+	background-color: rgba(245, 245, 245, 0.4);
+    display: table;
+    margin: 0 auto;
+}

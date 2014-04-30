@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>{{ title }}</title>
+    <link rel="stylesheet" href="//netdna.bootstrapcdn.com/bootstrap/3.1.1/css/bootstrap.min.css">
+    <link rel="stylesheet" href="../stylesheets/index-starter.css">
+  </head>
+  <body>
+  	<div id ="wrap">
+    <div class="navbar navbar-inverse navbar-fixed-top" role="navigation">
+      <div class="container">
+        <div class="navbar-header">
+          <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+            <span class="sr-only">Toggle navigation</span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+          </button>
+          <a class="navbar-brand" href="#">Oh You're Bored!</a>
+        </div>
+        <div class="collapse navbar-collapse">
+          <ul class="nav navbar-nav">
+            <li class="active"><a href="#">Home</a></li>
+            <li><a href="#about">About</a></li>
+            <li><a href="#contact">Contact</a></li>
+          </ul>
+        </div><!--/.nav-collapse -->
+      </div>
+    </div>
+
+    <div class="container">
+
+      <div class="row"> 
+      	<div class="col-md-8 starter-template">
+      		<h1>{{ title }}</h1>
+    		<p>Hi Raj! Welcome to {{ title }}</p>
+      	</div>
+      </div>
+      
+    </div><!-- /.container -->
+    </div> <!-- wrap -->
+    <div id="footer">
+    	<div class="col-md-4" id="qlinks"> 
+    		<div>
+    		<address>
+			  <strong>Sree Venkateswara Tiles</strong><br>
+			  S.F No. 362/2, Perundurai road,<br>
+			  Near Sakthi Mahal,<br>
+			  Erode - 638011.<br>
+			  <abbr title="Phone">P:</abbr> (0424) 2266790
+			</address>
+
+			<address>
+			  <a href="mailto:sreevenkateswaratiles@gmail.com">sreevenkateswaratiles@gmail.com</a>
+			</address> 
+			</div>
+		</div>
+    	<div class="col-md-4" id="qlinks"> Some links
+    	</div>
+    	<div class="col-md-4" id="qlinks"> Some more links
+    	</div>
+    </div> <!-- footer -->
+    <div id="footer_bottom">  © 2014 Sree Venkateswara Tiles - All Rights Reserved.
+    </div>
+  </body>
+  <script src="//ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>
+  <script src="//netdna.bootstrapcdn.com/bootstrap/3.1.1/js/bootstrap.min.js"></script>
+</html>
