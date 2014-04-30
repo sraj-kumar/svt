@@ -41,19 +41,7 @@
     </div> <!-- wrap -->
     <div id="footer">
     	<div class="col-md-4" id="qlinks"> 
-    		<div>
-    		<address>
-			  <strong>Sree Venkateswara Tiles</strong><br>
-			  S.F No. 362/2, Perundurai road,<br>
-			  Near Sakthi Mahal,<br>
-			  Erode - 638011.<br>
-			  <abbr title="Phone">P:</abbr> (0424) 2266790
-			</address>
-
-			<address>
-			  <a href="mailto:sreevenkateswaratiles@gmail.com">sreevenkateswaratiles@gmail.com</a>
-			</address> 
-			</div>
+    		Ok, here are links
 		</div>
     	<div class="col-md-4" id="qlinks"> Some links
     	</div>
